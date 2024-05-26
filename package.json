@@ -1,0 +1,19 @@
+{
+  "name": "kasir",
+  "version": "1.0.0",
+  "description": "tugas akhir sanbercode",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx run ./wdio.conf.js"
+  },
+  "author": "nugraha",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.24.6",
+    "@babel/preset-env": "^7.24.6",
+    "@babel/register": "^7.24.6",
+    "@wdio/local-runner": "^8.38.0",
+    "@wdio/mocha-framework": "^8.38.0",
+    "@wdio/spec-reporter": "^8.38.0"
+  }
+}
